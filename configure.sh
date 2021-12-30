@@ -1,7 +1,7 @@
 #!/bin/sh
-# V2Ray new configuration
-cat <<-EOF > /etc/v2ray/config.json
+# XRay new configuration
+cat <<-EOF > /etc/xray/config.json
 $CONFIG_JSON
 EOF
-# Run V2Ray
-/usr/bin/v2ray/v2ray -config=/etc/v2ray/config.json
+# Run XRay
+/usr/bin/xray/xray -config=/etc/xray/config.json
